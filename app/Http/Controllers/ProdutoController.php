@@ -39,4 +39,4 @@ return "Produto não encontrado!";
 // Retorna a view 'produtos.show' passando os detalhes do produto
 return view('produtos.show', ['produto' => $produtos[$id]]);
 }
-}
+} 

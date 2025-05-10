@@ -6,4 +6,4 @@
 
 <p><strong>Preço:</strong> R$ {{ number_format($produto['preco'], 2, ',', '.') }}</p>
 <a href="{{ url('/produtos') }}">Voltar para lista</a>
-@endsection
+@endsection 

@@ -12,4 +12,4 @@ return view('welcome');
 Route::get('/produtos', [ProdutoController::class, 'index']);
 
 // Rota que recebe um parâmetro (ID do produto)
-Route::get('/produtos/{id}', [ProdutoController::class, 'show']);
+Route::get('/produtos/{id}', [ProdutoController::class, 'show']); 
