@@ -92,7 +92,7 @@
         padding: 1rem;
         margin-top: 1rem;
       }
-    }
+    } 
   </style>
 </head>
 <body>
